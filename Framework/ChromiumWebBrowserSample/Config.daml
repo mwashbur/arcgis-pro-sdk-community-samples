@@ -61,7 +61,7 @@
       </groups>
       <controls>
         <!-- add your controls here -->
-        <button id="ChromiumWebBrowserSample_UI_ChromePane_OpenButton" caption="Open ChromePane" className="ChromiumWebBrowserSample.UI.ChromePane_OpenButton" loadOnClick="true" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/MarsCat16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/MarsCat32.png">
+        <button id="ChromiumWebBrowserSample_UI_ChromePane_OpenButton" caption="Open ChromePane" className="ChromiumWebBrowserSample.UI.ChromePane_OpenButton" loadOnClick="true" smallImage="Images\chromium.png" largeImage="Images\chromium.png">
           <tooltip heading="Open Pane">Open Pane<disabledText /></tooltip>
         </button>
       </controls>

@@ -66,7 +66,7 @@ namespace Inspector_AddAttributeAsync
     {
       // get the Precincts feature layer in the active map
       _pointLayer = ActiveMapView.Map.GetLayersAsFlattenedList().OfType<FeatureLayer>().
-                              Where(lyr => lyr.Name == "Police Stations").FirstOrDefault();
+                              Where(lyr => lyr.Name == "TPP.TxDOT_Roadways_Edits").FirstOrDefault();
       if (_pointLayer == null)
         return;
 
@@ -81,7 +81,7 @@ namespace Inspector_AddAttributeAsync
       }
 
       // these are the fields that we will collect values from the user
-      var fieldNames = new List<string>() { "Precinct", "Address" };
+      var fieldNames = new List<string>() { "RTE_PRFX", "ETL_JOB_ID" };
 
       // set up the inspector
       var inspector = new Inspector(false);

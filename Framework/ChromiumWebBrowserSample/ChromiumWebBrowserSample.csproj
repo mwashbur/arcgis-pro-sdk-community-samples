@@ -205,6 +205,12 @@
   <ItemGroup>
     <None Include="Screenshots\Screen1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AddInContent Include="DarkImages\chromium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AddInContent Include="Images\chromium.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!--
   PackageAction can be:

@@ -24,5 +24,6 @@ namespace ArcGISOnlineConnect.ArcGISOnlineHelpers
         public string title;
         public string description;
         public string[] tags;
+        public string url;
     }
 }
